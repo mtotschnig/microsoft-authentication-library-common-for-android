@@ -12,9 +12,6 @@ rootProject.name = "com.microsoft.identity"
 include(':common')
 project(':common').projectDir = new File('common')
 
-include(':testutils')
-project(':testutils').projectDir = new File('testutils')
-
 include(':uiautomationutilities')
 project(':uiautomationutilities').projectDir = new File('uiautomationutilities')
 
