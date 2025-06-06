@@ -22,11 +22,11 @@ project(':common').projectDir = new File('common')
 include(':common4j')
 project(':common4j').projectDir = new File('common4j')
 
-include(':keyvault')
+/*include(':keyvault')
 project(':keyvault').projectDir = new File('keyvault')
 
 include(':labapi')
 project(':labapi').projectDir = new File('labapi')
 
 include(':LabApiUtilities')
-project(':LabApiUtilities').projectDir = new File('LabApiUtilities')
+project(':LabApiUtilities').projectDir = new File('LabApiUtilities')*/
