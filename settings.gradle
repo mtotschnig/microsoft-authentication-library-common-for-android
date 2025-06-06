@@ -12,8 +12,11 @@ rootProject.name = "com.microsoft.identity"
 include(':common')
 project(':common').projectDir = new File('common')
 
-include(':uiautomationutilities')
-project(':uiautomationutilities').projectDir = new File('uiautomationutilities')
+//include(':testutils')
+//project(':testutils').projectDir = new File('testutils')
+
+//include(':uiautomationutilities')
+//project(':uiautomationutilities').projectDir = new File('uiautomationutilities')
 
 // Pure Java Projects
 include(':common4j')
